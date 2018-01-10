@@ -106,9 +106,12 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
   const char GENESIS_COINBASE_TX_HEX[] = "";
   
+  const int P2P_DEFAULT_PORT = 19761;
+const int RPC_DEFAULT_PORT = 19591;
+  
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "148.251.3.122:17236",
+  "148.251.3.122:19761",
   //"your_seed_ip2.com:8080",
 };
 
